@@ -1,29 +1,44 @@
-Calculadora de Evento
+# Event Calculator
 
-Projeto simples em Java para calcular a quantidade de itens necessários para um evento.
+A simple Java calculator that estimates the quantity of food and drinks needed for an event based on the number of guests.
 
-📌 Funcionalidades
+## Features
+- Calculates total cups needed
+- Calculates total snacks
+- Calculates total sweets
+- Calculates cake slices
+- Converts drink amount from milliliters to liters
 
-- Cálculo de copos
-- Cálculo de salgados
-- Cálculo de doces
-- Cálculo de bolo
-- Cálculo de bebidas
-
-🛠️ Tecnologias
-
+## Technologies
 - Java
+- Scanner for user input
 
-▶️ Como executar
+## What I practiced
+- Variables
+- User input with Scanner
+- Arithmetic operations
+- Output formatting with `printf`
 
-1. Compile:
+## How it works
 
-javac src/Main.java
+The program asks the user for:
+- Number of guests
+- Cups per person
+- Snacks per person
+- Sweets per person
+- Cake slices per person
+- Beverage amount in mL per person
 
-2. Execute:
+Then it calculates the total amount required for the event.
 
-java -cp src Main
+## How to run
 
-📚 Objetivo
+1. Clone the repository:
 
-Projeto desenvolvido para praticar lógica de programação e Java.
+```bash
+git clone https://github.com/stefanibergerdev/NOME-DO-REPO.git
+```
+
+2. Open the project in IntelliJ IDEA or another Java IDE.
+
+3. Run the main class.
